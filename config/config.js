@@ -7,7 +7,7 @@ const {
   DB_HOST
 } = process.env;
 
-module.export = {
+module.exports = {
   "development": {
     "username": DB_USERNAME,
     "password": DB_PASSWORD,
